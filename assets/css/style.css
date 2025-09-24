@@ -234,3 +234,19 @@ img {
     height: auto;     /* Maintains aspect ratio */
     display: block;
 }
+
+/* ==================== ABOUT =============== */
+.about-container {
+    grid-template-columns: 3fr 6fr 2fr;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about-experience {
+    width: 280px;
+    height: 420px;
+    background: var(--second-gradient);
+    border-radius: 1rem;
+    display: grid;
+    place-content: center;
+}
